@@ -3,4 +3,4 @@ Distance = float(input("กรอกระยะทาง(s) ที่มีค�
 Time = float(input("กรอกระยะเวลา(t) ที่มีค่าตั้งแต่ 1 ขึ้นไป:"))
 print("Distance(s) = ",Distance,"km")
 print("Time(t) = ",Time,"h")
-print("Velocity(v) = ",Distance/Time,"Km/h")
+print("Velocity(v) = ",int(Distance/Time),"km/h")
